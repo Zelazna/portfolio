@@ -1,0 +1,53 @@
+.menu-icon
+  width: 54px
+  position: relative
+  height: 54px
+  border-radius: 50%
+  //background: $menu-icon-bg
+  @media (max-width: 800px)
+    width: 0
+    height: 0
+  span
+    width: 22px
+    height: 2px
+    background: $menu-icon-color
+    display: block
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translateX(-50%) translateY(-50%)
+    &::before, &::after
+      content: ''
+      position: absolute
+      top: 0
+      left: 0
+      display: block
+      width: 22px
+      height: 2px
+      transform: translateY(-6px)
+      background: $menu-icon-color
+      transition: transform $duration
+    &::after
+      transform: translateY(6px)
+  &:hover
+    span::before
+      transform: translateY(-8px)
+    span::after
+      transform: translateY(8px)
+
+.menu-icon-cross
+  transition: transformation $duration
+  span::before, span::after
+    transform-origin: 50% 50%
+  span
+    transition: background $duration, transform $duration
+  &.is-opened
+    transform: rotate(180deg)
+    span
+      background: transparent
+    span::before
+      transform: translateY(0) rotate(45deg)
+      background: #fff
+    span::after
+      transform: translateY(0) rotate(-45deg)
+      background: #fff

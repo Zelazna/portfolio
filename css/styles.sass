@@ -1,0 +1,552 @@
+/*RESET*/
+
+a
+  color: inherit
+  text-decoration: none
+
+/* GENERAL */
+
+$white-color: #fff
+$black-color: #000
+$grey-color: #EBEBEB
+$yellow-color: #FFCA28
+$font-size-big: 2.3em
+$font-size-medium: 1.7em
+$font-size-regular: 1.1em
+$font-size-small: 0.8em
+$font-size-modale: 2em
+$center: 0 auto
+$font-weight-textes: 200
+$font-weight-titres: 300
+$background-size: cover
+
+/*BURGER*/
+$menu-icon-bg: #052b23
+$menu-icon-color: #FFF
+$duration: 0.5s
+
+strong
+  font-weight: 500
+
+em
+  font-style: italic
+
+body
+  font-family: Roboto, "Verdana"
+  font-weight: $font-weight-textes
+  background: $grey-color
+
+.container
+  width: 100%
+
+h2
+  font-size: $font-size-medium
+  font-weight: $font-weight-titres
+  text-align: center
+  @media (max-width: 800px)
+    font-size: $font-size-regular
+
+h3
+  text-align: center
+  font-size: $font-size-regular
+  font-weight: 400
+  @media (max-width: 800px)
+    font-size: $font-size-small
+
+/*HEADER*/
+
+header
+  display: inline
+  width: 100%
+  height: 60px
+  @media (max-width: 800px)
+    height: 20px
+  .menu
+    text-align: left
+    display: inline-block
+    position: fixed
+    .menu-icon
+      height: 50px
+      width: 50px
+  //.langues
+  //  text-align: right
+  //  display: inline-block
+  //  float: right
+  li
+    display: inline-block
+    text-transform: uppercase
+
+/*A PROPOS*/
+
+.apropos
+  width: 100%
+  height: 654px
+  background: url("../img/header_bg.png")
+  background-size: cover
+  color: $white-color
+  font-size: $font-size-regular
+  padding: 22px
+  @media (max-width: 350px)
+    height: 580px
+
+.presentation
+  text-align: center
+  h1
+    font-size: $font-size-big
+    font-weight: $font-weight-titres
+    margin: 0 0 2%
+    span
+      font-size: $font-size-small
+      font-weight: 200
+    @media (max-width: 800px)
+      font-size: $font-size-regular
+  .content
+    width: 75%
+    margin: $center
+    @media (max-width: 1149px)
+      width: 90%
+      margin: $center
+    .portrait
+      display: inline-block
+      height: 170px
+      @media (max-width: 800px)
+        display: block
+        margin: $center
+        height: 80px
+      @media (min-width: 360px) and (max-width: 800px)
+        height: 130px
+    p
+      line-height: 140%
+      width: 620px
+      text-align: justify
+      display: inline-block
+      font-weight: $font-weight-textes
+      font-size: $font-size-regular
+      margin-left: 4%
+      @media (max-width: 800px)
+        text-align: left
+        display: inline-block
+        width: 100%
+      @media (max-width: 320px)
+        font-size: $font-size-small +0.1
+
+.competences
+  text-align: center
+  margin: $center
+  @media (max-width: 963px)
+    display: none
+  h2
+    margin: 3% 0 3% 0
+  .content
+    width: 60%
+    margin: $center
+    .atom
+      //height: 200px
+      //opacity: 0.7
+      float: right
+      margin: -30% -15% 0
+      @media (max-width: 1140px)
+        display: none
+    ol
+      padding-left: 40%
+      li
+        text-align: left
+        ol
+          text-align: left
+          list-style-image: url("../img/nested.png")
+          padding: 5px 0 5px 18px
+          li
+            text-align: left
+            line-height: 100%
+            margin-left: 10%
+            font-size: $font-size-small
+
+.joindre
+  width: 210px
+  height: 100px
+  margin: 0 4% 0
+  @media (max-width: 1000px)
+    display: none
+  .bulle
+    background: $yellow-color
+    border-radius: 100%
+    text-align: center
+    text-transform: uppercase
+  .cv
+    height: 70px
+    width: 70px
+    display: inline-block
+    padding-top: 12%
+    margin: 25px 16px
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.26), 0 0 1px 0 rgba(0, 0, 0, 0.16)
+  .contact
+    height: 100px
+    width: 100px
+    display: inline-block
+    padding-top: 20%
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.26), 0 0 1px 0 rgba(0, 0, 0, 0.16)
+
+/*MODALE*/
+
+.modale
+  display: none
+  background-color: rgba(151, 146, 149, 0.5)
+  margin: auto
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  padding-top: 8%
+  .content
+    border-radius: 2%
+    padding: 1%
+    color: $black-color
+    margin: $center
+    width: 40%
+    height: 450px
+    background: $grey-color
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    @media (max-width: 400px)
+      width: 75%
+      margin: 5% auto
+    h3
+      font-size: $font-size-modale
+      font-weight: $font-weight-titres
+      margin-bottom: 3%
+      border-bottom: 1px solid $black-color
+      line-height: 200%
+    .ancres
+      margin-left: 33%
+      text-align: left
+      @media (max-width: 900px)
+        text-align: center
+        margin: $center
+      li
+        line-height: 160%
+        font-size: $font-size-modale
+        font-weight: $font-weight-textes
+        margin: 5%
+        @media (max-width: 400px)
+          font-size: $font-size-medium
+    //li:hover
+    //  background: #000
+    //  color: #fff
+    .social
+      text-align: center
+      border-top: 1px solid black
+      li
+        display: inline-block
+        font-size: $font-size-big
+        margin: 5%
+
+/*TIMELINE*/
+
+.cd-horizontal-timeline
+  color: #4A4A4A
+  height: 400px
+  width: 100%
+  text-align: center
+  h2
+    margin: 50px 0 75px 0
+  i
+    display: block
+    font-size: $font-size-big
+  p
+    text-align: justify
+    margin-top: 2%
+
+/*REALISATIONS*/
+
+.realisations
+  background: url("../img/playbackground.png")
+  background-size: cover
+  width: 100%
+  height: 1017px
+  color: $white-color
+  padding: 3.3%
+  overflow: auto
+  //h2
+    //margin-bottom: 4%
+  .grid
+    position: relative
+    padding: 1em 0 4em
+    max-width: 1000px
+    list-style: none
+    text-align: center
+    //width: 80%
+    margin: $center
+//img
+//  max-width: 100%
+//  height: auto
+
+//* Common style */
+
+.grid figure
+  position: relative
+  float: left
+  overflow: hidden
+  margin: 10px 1%
+  min-width: 320px
+  max-width: 480px
+  max-height: 360px
+  width: 48%
+  text-align: center
+  cursor: pointer
+  background: #090704
+  @media screen and (max-width: 50em)
+    display: inline-block
+    float: none
+    margin: 10px auto
+    width: 100%
+
+.grid figure img
+  position: relative
+  display: block
+  min-height: 100%
+  max-width: 100%
+  opacity: 0.8
+
+.grid figure figcaption
+  padding: 2em
+  color: #fff
+  text-transform: uppercase
+  font-size: 1.25em
+  -webkit-backface-visibility: hidden
+  backface-visibility: hidden
+
+.grid figure figcaption::before,
+.grid figure figcaption::after
+  pointer-events: none
+
+.grid figure figcaption,
+.grid figure figcaption > a
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a
+  z-index: 1000
+  text-indent: 200%
+  white-space: nowrap
+  font-size: 0
+  opacity: 0
+
+.grid figure h2
+  word-spacing: -0.15em
+  font-weight: 300
+
+.grid figure h2 span
+  font-weight: 800
+
+.grid figure h2,
+.grid figure p
+  margin: 0
+
+.grid figure p
+  letter-spacing: 1px
+  font-size: 68.5%
+
+/*---------------*/
+/***** Zoe *****/
+/*---------------*/
+
+figure.effect-zoe figcaption
+  top: auto
+  bottom: 0
+  padding: 1em
+  height: 3.75em
+  background: #fff
+  color: #3c4a50
+  -webkit-transition: -webkit-transform 0.35s
+  transition: transform 0.35s
+  -webkit-transform: translate3d(0, 100%, 0)
+  transform: translate3d(0, 100%, 0)
+
+figure.effect-zoe h2
+  float: left
+
+figure.effect-zoe p.icon-links a
+  float: right
+  color: #3c4a50
+  font-size: 2.4em
+
+figure.effect-zoe:hover p.icon-links a:hover,
+figure.effect-zoe:hover p.icon-links a:focus
+  color: #252d31
+
+figure.effect-zoe p.description
+  position: absolute
+  bottom: 8em
+  //padding: 2em
+  color: #fff
+  text-transform: none
+  font-size: 90%
+  opacity: 0
+  -webkit-transition: opacity 0.35s
+  transition: opacity 0.35s
+  -webkit-backface-visibility: hidden
+  @media (max-width: 320px)
+    padding: 0
+/* Fix for Chrome 37.0.2062.120 (Mac) */
+
+
+figure.effect-zoe h2,
+figure.effect-zoe p.icon-links a
+  -webkit-transition: -webkit-transform 0.35s
+  transition: transform 0.35s
+  -webkit-transform: translate3d(0, 200%, 0)
+  transform: translate3d(0, 200%, 0)
+
+figure.effect-zoe p.icon-links a span::before
+  display: inline-block
+  padding: 8px 10px
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+figure.effect-zoe h2
+  display: inline-block
+
+figure.effect-zoe:hover p.description
+  opacity: 1
+
+figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover h2,
+figure.effect-zoe:hover p.icon-links a
+  -webkit-transform: translate3d(0, 0, 0)
+  transform: translate3d(0, 0, 0)
+
+figure.effect-zoe:hover h2
+  -webkit-transition-delay: 0.05s
+  transition-delay: 0.05s
+
+figure.effect-zoe:hover p.icon-links a:nth-child(3)
+  -webkit-transition-delay: 0.1s
+  transition-delay: 0.1s
+
+figure.effect-zoe:hover p.icon-links a:nth-child(2)
+  -webkit-transition-delay: 0.15s
+  transition-delay: 0.15s
+
+figure.effect-zoe:hover p.icon-links a:first-child
+  -webkit-transition-delay: 0.2s
+  transition-delay: 0.2s
+
+///* clearfix */
+//
+//.grid:after
+//  content: ''
+//  display: block
+//  clear: both
+//
+///* ---- grid-item ---- */
+//
+//.grid-sizer,
+//.grid-item
+//  width: 20%
+//
+//.grid-item
+//  float: left
+//  width: 100px
+//  position: relative
+//  border: solid 1px #000
+//  i
+//    position: absolute
+//    bottom: 0
+//    color: #fff
+//    background-color: #424242
+//    font-weight: 300
+//    text-align: center
+//    vertical-align: middle
+//    padding: 2%
+//    border-top: solid 1px #000
+//    border-right: solid 1px #000
+//
+//.grid-item--width2
+//  width: 40%
+//
+//.grid-item--height2
+//  height: 200px
+//
+//.grid-item--width3
+//  width: 60%
+//
+//.grid-item--height3
+//  height: 400px
+//
+//.hf
+//  background: url("../img/18.jpg") right 100%
+//  background-size: $background-size
+//
+//.beerit
+//  background: url("../img/carousel1.2.png") top
+//  background-size: $background-size
+//
+//.moodboard
+//  background: url("../img/moodboard.jpg") bottom
+//  background-size: $background-size
+//
+//.weendie
+//  background: url("../img/bg.jpg") left 100%
+//  background-size: $background-size
+//
+//.portfolio
+//  background: url("../img/portfolio.jpg") top
+//  background-size: $background-size
+
+//FOOTER
+
+footer
+  text-align: center
+  height: 80px
+  padding-top: 2%
+  font-size: $font-size-small
+  @media (max-width: 800px)
+    height: 50px
+  .legal
+    vertical-align: bottom
+    margin-top: 1%
+  ul
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    li
+      align-self: center
+      .fa
+        display: block
+
+/*KEYFRAMES*/
+
+@keyframes pulse_animation
+  0%
+    transform: scale(1)
+  30%
+    transform: scale(1)
+  40%
+    transform: scale(1.08)
+  50%
+    transform: scale(1)
+  60%
+    transform: scale(1)
+  70%
+    transform: scale(1.05)
+  80%
+    transform: scale(1)
+  100%
+    transform: scale(1)
+
+.pulse:hover
+  animation-name: pulse_animation
+  animation-duration: 1000ms
+  transform-origin: 70% 70%
+  animation-iteration-count: infinite
+  animation-timing-function: linear
+
+@import "menu"
+
+
+
