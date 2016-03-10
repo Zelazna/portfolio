@@ -121,12 +121,8 @@ header {
     .competences {
       display: none; } }
   .competences h2 {
-<<<<<<< HEAD
-    margin: 3% 0 3% 0; }
-=======
     margin: 2% 0 2% 0;
   }
->>>>>>> testing
   .competences .content {
     width: 60%;
     margin: 0 auto; }
@@ -153,30 +149,6 @@ header {
 .joindre {
   width: 210px;
   height: 100px;
-<<<<<<< HEAD
-  margin: 0 4% 0; }
-  @media (max-width: 1000px) {
-    .joindre {
-      display: none; } }
-  .joindre .bulle {
-    background: #FFCA28;
-    border-radius: 100%;
-    text-align: center;
-    text-transform: uppercase; }
-  .joindre .cv {
-    height: 70px;
-    width: 70px;
-    display: inline-block;
-    padding-top: 12%;
-    margin: 25px 16px;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.26), 0 0 1px 0 rgba(0, 0, 0, 0.16); }
-  .joindre .contact {
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    padding-top: 20%;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.26), 0 0 1px 0 rgba(0, 0, 0, 0.16); }
-=======
   margin: -6% 0 0 15%;
   display: flex;
   flex-direction: row;
@@ -245,7 +217,6 @@ header {
   -ms-transform: translateX(50%);
   transform: translateX(50%);
 }
->>>>>>> testing
 
 /*MODALE */
 .modale {
@@ -410,13 +381,8 @@ figure.effect-zoe figcaption {
   bottom: 0;
   padding: 1em;
   height: 3.75em;
-<<<<<<< HEAD
-  background: #fff;
-  color: #3c4a50;
-=======
   background: #EBEBEB;
   color: #000;
->>>>>>> testing
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   -webkit-transform: translate3d(0, 100%, 0);
@@ -427,11 +393,7 @@ figure.effect-zoe h2 {
 
 figure.effect-zoe p.icon-links a {
   float: right;
-<<<<<<< HEAD
-  color: #3c4a50;
-=======
   color: #000;
->>>>>>> testing
   font-size: 2.4em; }
 
 figure.effect-zoe:hover p.icon-links a:hover,
