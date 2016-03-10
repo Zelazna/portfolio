@@ -1,6 +1,6 @@
 //Toggle menu classes
 
-$(document).ready(function () {
+$(function () {
     $('.menu-icon').click(function (e) {
             e.preventDefault();
         var $this = $(this);
@@ -34,8 +34,8 @@ $(document).ready(function () {
             $('.menu-icon').removeClass('is-opened').addClass('is-closed');
         })
         }
-    )
-});
+    );
+
 
 $(".button-fill").hover(function () {
     $(this).children(".button-inside").addClass('full');
@@ -43,6 +43,7 @@ $(".button-fill").hover(function () {
     $(this).children(".button-inside").removeClass('full');
 });
 
+});
 //realisations animation
 
 //var grid_item = $(".grid-item");
