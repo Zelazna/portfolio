@@ -27,7 +27,7 @@ scene.add(directionalLight);
 //                                    v    v   v
 var shape = new THREE.SphereGeometry(75, 20, 20);
 
-var texture1 = new THREE.MeshBasicMaterial({map: THREE.ImageUtils.loadTexture('img/header_bg.png'), wireframe: true});
+var texture1 = new THREE.MeshBasicMaterial({map: THREE.ImageUtils.loadTexture('img/black_bg.png'), wireframe: true});
 //var php = new THREE.MeshPhongMaterial({
 //    map: THREE.ImageUtils.loadTexture('img/PHP_logo.png'),
 //    specular: 0xeeeee,
