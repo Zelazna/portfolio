@@ -3,7 +3,7 @@
 $(document).ready(function () {
     $('.menu-icon').click(function (e) {
             e.preventDefault();
-            $this = $(this);
+        var $this = $(this);
         $.modale = $('.modale');
         //ouverture du menu
             if ($this.hasClass('is-opened')) {
@@ -37,6 +37,11 @@ $(document).ready(function () {
     )
 });
 
+$(".button-fill").hover(function () {
+    $(this).children(".button-inside").addClass('full');
+}, function () {
+    $(this).children(".button-inside").removeClass('full');
+});
 
 //realisations animation
 

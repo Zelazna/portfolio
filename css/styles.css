@@ -121,7 +121,8 @@ header {
     .competences {
       display: none; } }
   .competences h2 {
-    margin: 3% 0 3% 0; }
+    margin: 2% 0 2% 0;
+  }
   .competences .content {
     width: 60%;
     margin: 0 auto; }
@@ -148,7 +149,8 @@ header {
 .joindre {
   width: 210px;
   height: 100px;
-  margin: 0 4% 0; }
+  margin: -2% 3% 0;
+}
   @media (max-width: 1000px) {
     .joindre {
       display: none; } }
