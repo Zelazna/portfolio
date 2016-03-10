@@ -147,16 +147,12 @@ header {
             font-size: 0.8em; }
 
 .joindre {
-  width: 210px;
-  height: 100px;
-  margin: -6% 0 0 15%;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: flex-start;
   font-weight: 300;
 }
-  @media (max-width: 1000px) {
+
+@media (max-width: 400px) {
     .joindre {
       display: none; } }
 
