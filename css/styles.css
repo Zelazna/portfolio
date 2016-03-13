@@ -121,8 +121,7 @@ header {
     .competences {
       display: none; } }
   .competences h2 {
-    margin: 2% 0 2% 0;
-  }
+    margin: 2% 0 2% 0; }
   .competences .content {
     width: 60%;
     margin: 0 auto; }
@@ -149,10 +148,8 @@ header {
 .joindre {
   display: flex;
   justify-content: flex-start;
-  font-weight: 300;
-}
-
-@media (max-width: 400px) {
+  font-weight: 300; }
+  @media (max-width: 400px) {
     .joindre {
       display: none; } }
 
@@ -162,19 +159,16 @@ header {
   display: inline-block;
   position: relative;
   text-transform: uppercase;
-  margin: 25px;
-}
+  margin: 25px; }
 
 .button-fill.grey {
   background: #EBEBEB;
-  color: #000;
-}
+  color: #000; }
 
 .button-text {
   padding: 0 25px;
   line-height: 54px;
-  letter-spacing: 0.1em;
-}
+  letter-spacing: 0.1em; }
 
 .button-inside {
   width: 0;
@@ -192,15 +186,13 @@ header {
   -webkit-transition: width 0.5s, left 0.5s, margin 0.5s;
   -moz-transition: width 0.5s, left 0.5s, margin 0.5s;
   -o-transition: width 0.5s, left 0.5s, margin 0.5s;
-  transition: width 0.5s, left 0.5s, margin 0.5s;
-}
+  transition: width 0.5s, left 0.5s, margin 0.5s; }
 
 .button-inside.full {
   width: 100%;
   left: 0;
   top: 0;
-  margin-right: -50px;
-}
+  margin-right: -50px; }
 
 .inside-text {
   text-align: center;
@@ -211,8 +203,7 @@ header {
   -webkit-transform: translateX(50%);
   -moz-transform: translateX(50%);
   -ms-transform: translateX(50%);
-  transform: translateX(50%);
-}
+  transform: translateX(50%); }
 
 /*MODALE */
 .modale {
@@ -471,31 +462,6 @@ footer {
       align-self: center; }
       footer ul li .fa {
         display: block; }
-
-/*KEYFRAMES */
-@keyframes pulse_animation {
-  0% {
-    transform: scale(1); }
-  30% {
-    transform: scale(1); }
-  40% {
-    transform: scale(1.08); }
-  50% {
-    transform: scale(1); }
-  60% {
-    transform: scale(1); }
-  70% {
-    transform: scale(1.05); }
-  80% {
-    transform: scale(1); }
-  100% {
-    transform: scale(1); } }
-.pulse:hover {
-  animation-name: pulse_animation;
-  animation-duration: 1000ms;
-  transform-origin: 70% 70%;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; }
 
 .menu-icon {
   width: 54px;

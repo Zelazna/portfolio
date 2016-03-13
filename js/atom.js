@@ -28,23 +28,7 @@ scene.add(directionalLight);
 var shape = new THREE.SphereGeometry(75, 20, 20);
 
 var texture1 = new THREE.MeshBasicMaterial({map: THREE.ImageUtils.loadTexture('img/black_bg.png'), wireframe: true});
-//var php = new THREE.MeshPhongMaterial({
-//    map: THREE.ImageUtils.loadTexture('img/PHP_logo.png'),
-//    specular: 0xeeeee,
-//    shininess: 5
-//});
-//var js = new THREE.MeshPhongMaterial({
-//    map: THREE.ImageUtils.loadTexture('img/js_logo.png'),
-//    specular: 0xfffff,
-//    shininess: 5
-//});
-//var html = new THREE.MeshPhongMaterial({
-//    map: THREE.ImageUtils.loadTexture('img/html.png'),
-//    specular: 0xfffff,
-//    shininess: 5
-//});
 
-//var cover4 = new THREE.MeshPhongMaterial({color: 0xff3333, specular: 0x33333, shininess: 5});
 var nucleus = new THREE.Mesh(shape, texture1);
 scene.add(nucleus);
 
