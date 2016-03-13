@@ -1,11 +1,11 @@
 //Toggle menu classes
 
-$(document).ready(function () {
+$(function () {
     $('.menu-icon').click(function (e) {
             e.preventDefault();
-        var $this = $(this);
-        $.modale = $('.modale');
-        //ouverture du menu
+            var $this = $(this);
+            $.modale = $('.modale');
+            //ouverture du menu
             if ($this.hasClass('is-opened')) {
                 $this.addClass('is-closed').removeClass('is-opened');
                 $.modale.velocity("fadeOut", {delay: 250, duration: 500});
@@ -22,56 +22,27 @@ $(document).ready(function () {
                     'height': '100%'
                 });
             }
-        //ferme le menu au click sur une ancre
-        $('.ancres').click(function () {
-            $('.modale').css({
-                'display': 'none'
-            });
-            $('html, body').css({
-                'overflow': 'auto',
-                'height': 'auto'
-            });
-            $('.menu-icon').removeClass('is-opened').addClass('is-closed');
-        })
+            //ferme le menu au click sur une ancre
+            $('.ancres').click(function () {
+                $('.modale').css({
+                    'display': 'none'
+                });
+                $('html, body').css({
+                    'overflow': 'auto',
+                    'height': 'auto'
+                });
+                $('.menu-icon').removeClass('is-opened').addClass('is-closed');
+            })
         }
-    )
-});
-
-$(".button-fill").hover(function () {
-    $(this).children(".button-inside").addClass('full');
-}, function () {
-    $(this).children(".button-inside").removeClass('full');
-});
+    );
 
 
 //realisations animation
 
-//var grid_item = $(".grid-item");
-//
-//grid_item.mouseenter(function () {
-//    $(this).velocity(
-//        {
-//            scale: 1.5
-//        },
-//        {
-//            duration: 500
-//        }).css({'z-index': +90});
-//});
-//
-//grid_item.mouseleave(function () {
-//    $(this).velocity(
-//        {
-//            scale: 1
-//        },
-//        {
-//            duration: 500
-//        })
-//});
+    $(".button-fill").hover(function () {
+        $(this).children(".button-inside").addClass('full');
+    }, function () {
+        $(this).children(".button-inside").removeClass('full');
+    });
 
-//masonry
-
-//$('.grid').masonry({
-//    itemSelector: '.grid-item',
-//    columnWidth: '.grid-sizer',
-//    percentPosition: true
-//});
+});

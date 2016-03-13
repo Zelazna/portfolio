@@ -81,7 +81,7 @@ header
 .apropos
   width: 100%
   height: 654px
-  background: url("../img/header_bg.png")
+  background: url("../img/black_bg.png") fixed
   background-size: cover
   color: $white-color
   font-size: $font-size-regular
@@ -164,15 +164,13 @@ header
 //BOUTTONS
 
 .joindre
-  width: 210px
-  height: 100px
-  margin: -6% 0 0 15%
+  //margin: -6% 0 0 15%
   display: flex
-  flex-direction: row
-  justify-content: flex-end
-  align-items: flex-start
+  //flex-direction: row-reverse
+  justify-content: flex-start
+  //align-items: flex-start
   font-weight: $font-weight-titres
-  @media (max-width: 1000px)
+  @media (max-width: 400px)
     display: none
 
 .button-fill
@@ -301,7 +299,7 @@ header
 /*REALISATIONS*/
 
 .realisations
-  background: url("../img/playbackground.png")
+  background: url("../img/playbackground.png") fixed
   background-size: cover
   width: 100%
   height: 1017px
@@ -318,9 +316,6 @@ header
     text-align: center
     //width: 80%
     margin: $center
-//img
-//  max-width: 100%
-//  height: auto
 
 //* Common style */
 
@@ -478,68 +473,6 @@ figure.effect-zoe:hover p.icon-links a:first-child
   -webkit-transition-delay: 0.2s
   transition-delay: 0.2s
 
-///* clearfix */
-//
-//.grid:after
-//  content: ''
-//  display: block
-//  clear: both
-//
-///* ---- grid-item ---- */
-//
-//.grid-sizer,
-//.grid-item
-//  width: 20%
-//
-//.grid-item
-//  float: left
-//  width: 100px
-//  position: relative
-//  border: solid 1px #000
-//  i
-//    position: absolute
-//    bottom: 0
-//    color: #fff
-//    background-color: #424242
-//    font-weight: 300
-//    text-align: center
-//    vertical-align: middle
-//    padding: 2%
-//    border-top: solid 1px #000
-//    border-right: solid 1px #000
-//
-//.grid-item--width2
-//  width: 40%
-//
-//.grid-item--height2
-//  height: 200px
-//
-//.grid-item--width3
-//  width: 60%
-//
-//.grid-item--height3
-//  height: 400px
-//
-//.hf
-//  background: url("../img/18.jpg") right 100%
-//  background-size: $background-size
-//
-//.beerit
-//  background: url("../img/carousel1.2.png") top
-//  background-size: $background-size
-//
-//.moodboard
-//  background: url("../img/moodboard.jpg") bottom
-//  background-size: $background-size
-//
-//.weendie
-//  background: url("../img/bg.jpg") left 100%
-//  background-size: $background-size
-//
-//.portfolio
-//  background: url("../img/portfolio.jpg") top
-//  background-size: $background-size
-
 //FOOTER
 
 footer
@@ -560,33 +493,6 @@ footer
       align-self: center
       .fa
         display: block
-
-/*KEYFRAMES*/
-
-@keyframes pulse_animation
-  0%
-    transform: scale(1)
-  30%
-    transform: scale(1)
-  40%
-    transform: scale(1.08)
-  50%
-    transform: scale(1)
-  60%
-    transform: scale(1)
-  70%
-    transform: scale(1.05)
-  80%
-    transform: scale(1)
-  100%
-    transform: scale(1)
-
-.pulse:hover
-  animation-name: pulse_animation
-  animation-duration: 1000ms
-  transform-origin: 70% 70%
-  animation-iteration-count: infinite
-  animation-timing-function: linear
 
 @import "menu"
 
