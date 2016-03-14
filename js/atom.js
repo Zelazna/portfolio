@@ -27,7 +27,7 @@ scene.add(directionalLight);
 //                                    v    v   v
 var shape = new THREE.SphereGeometry(75, 20, 20);
 
-var texture1 = new THREE.MeshBasicMaterial({map: THREE.ImageUtils.loadTexture('img/black_bg.png'), wireframe: true});
+var texture1 = new THREE.MeshBasicMaterial({map: THREE.ImageUtils.loadTexture('img/atom_txt.jpg')});
 
 var nucleus = new THREE.Mesh(shape, texture1);
 scene.add(nucleus);
