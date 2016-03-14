@@ -275,13 +275,19 @@ header {
 
 /*REALISATIONS */
 .realisations {
-  background: url("../img/playbackground.png") fixed;
+  background: url("../img/playbackground.png");
   background-size: cover;
   width: 100%;
   height: 1017px;
   color: #fff;
   padding: 3.3%;
   overflow: auto; }
+
+@media only screen and (min-width: 1170px) {
+  .realisations {
+    background-attachment: fixed;
+  }
+}
   .realisations .grid {
     position: relative;
     padding: 1em 0 4em;
