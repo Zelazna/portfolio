@@ -282,12 +282,9 @@ header {
   color: #fff;
   padding: 3.3%;
   overflow: auto; }
-
-@media only screen and (min-width: 1170px) {
-  .realisations {
-    background-attachment: fixed;
-  }
-}
+  @media only screen and (min-width: 1170px) {
+    .realisations {
+      background-attachment: fixed; } }
   .realisations .grid {
     position: relative;
     padding: 1em 0 4em;
@@ -468,6 +465,8 @@ footer {
       align-self: center; }
       footer ul li .fa {
         display: block; }
+      footer ul li:hover {
+        color: #00a0d1; }
 
 .menu-icon {
   width: 54px;
