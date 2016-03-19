@@ -36,7 +36,7 @@ $(function () {
         }
     );
 
-
+    //js du boutton
     $(".button-fill").hover(function () {
         $(this).children(".button-inside").addClass('full');
     }, function () {

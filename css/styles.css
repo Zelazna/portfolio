@@ -33,7 +33,9 @@ h3 {
   font-weight: 400; }
   @media (max-width: 800px) {
     h3 {
-      font-size: 0.8em; } }
+      font-size: 0.7em;
+    }
+  }
 
 /*HEADER */
 header {
@@ -57,7 +59,6 @@ header {
 /*A PROPOS */
 .apropos {
   width: 100%;
-  height: 654px;
   background: url("../img/black_bg.png") fixed;
   background-size: cover;
   color: #fff;
@@ -74,7 +75,7 @@ header {
     font-weight: 300;
     margin: 0 0 2%; }
     .presentation h1 span {
-      font-size: 0.8em;
+      font-size: 0.7em;
       font-weight: 200; }
     @media (max-width: 800px) {
       .presentation h1 {
@@ -112,7 +113,9 @@ header {
           width: 100%; } }
       @media (max-width: 320px) {
         .presentation .content p {
-          font-size: 0.9em; } }
+          font-size: 0.8em;
+        }
+      }
 
 .competences {
   text-align: center;
@@ -143,7 +146,8 @@ header {
             text-align: left;
             line-height: 100%;
             margin-left: 10%;
-            font-size: 0.8em; }
+            font-size: 0.7em;
+          }
 
 .joindre {
   display: flex;
@@ -278,7 +282,6 @@ header {
   background: url("../img/playbackground.png");
   background-size: cover;
   width: 100%;
-  height: 1017px;
   color: #fff;
   padding: 3.3%;
   overflow: auto; }
@@ -450,7 +453,8 @@ footer {
   text-align: center;
   height: 80px;
   padding-top: 2%;
-  font-size: 0.8em; }
+  font-size: 0.7em;
+}
   @media (max-width: 800px) {
     footer {
       height: 50px; } }
@@ -464,7 +468,9 @@ footer {
     footer ul li {
       align-self: center; }
       footer ul li .fa {
-        display: block; }
+        display: block;
+        font-size: 1.7em;
+      }
       footer ul li:hover {
         color: #00a0d1; }
 
