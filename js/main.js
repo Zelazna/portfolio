@@ -4,11 +4,11 @@ $(function () {
     $('.menu-icon').click(function (e) {
             e.preventDefault();
             var $this = $(this);
-            $.modale = $('.modale');
+            var $modale = $('.modale');
             //ouverture du menu
             if ($this.hasClass('is-opened')) {
                 $this.addClass('is-closed').removeClass('is-opened');
-                $.modale.velocity("fadeOut", {delay: 250, duration: 500});
+                $modale.fadeToggle("slow", "linear");
                 $('html, body').css({
                     'overflow': 'auto',
                     'height': 'auto'
@@ -16,7 +16,7 @@ $(function () {
                 //fermeture du menu
             } else {
                 $this.removeClass('is-closed').addClass('is-opened');
-                $.modale.velocity("fadeIn", {duration: 500});
+                $modale.fadeToggle("slow", "linear");
                 $('html, body').css({
                     'overflow': 'hidden',
                     'height': '100%'
@@ -24,7 +24,7 @@ $(function () {
             }
             //ferme le menu au click sur une ancre
             $('.ancres').click(function () {
-                $('.modale').css({
+                $modale.css({
                     'display': 'none'
                 });
                 $('html, body').css({

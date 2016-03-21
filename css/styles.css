@@ -33,9 +33,7 @@ h3 {
   font-weight: 400; }
   @media (max-width: 800px) {
     h3 {
-      font-size: 0.7em;
-    }
-  }
+      font-size: 0.7em; } }
 
 /*HEADER */
 header {
@@ -113,9 +111,7 @@ header {
           width: 100%; } }
       @media (max-width: 320px) {
         .presentation .content p {
-          font-size: 0.8em;
-        }
-      }
+          font-size: 0.8em; } }
 
 .competences {
   text-align: center;
@@ -124,8 +120,7 @@ header {
     .competences {
       display: none; } }
   .competences h2 {
-    margin: 2% 0 2% 0;
-  }
+    margin: 2% 0 2% 0; }
   .competences .content {
     width: 60%;
     margin: 0 auto; }
@@ -147,16 +142,13 @@ header {
             text-align: left;
             line-height: 100%;
             margin-left: 10%;
-            font-size: 0.7em;
-          }
+            font-size: 0.7em; }
 
 .joindre {
   display: flex;
   justify-content: flex-start;
-  font-weight: 300;
-}
-
-@media (max-width: 400px) {
+  font-weight: 300; }
+  @media (max-width: 400px) {
     .joindre {
       display: none; } }
 
@@ -166,19 +158,16 @@ header {
   display: inline-block;
   position: relative;
   text-transform: uppercase;
-  margin: 25px;
-}
+  margin: 25px; }
 
 .button-fill.grey {
   background: #EBEBEB;
-  color: #000;
-}
+  color: #000; }
 
 .button-text {
   padding: 0 25px;
   line-height: 54px;
-  letter-spacing: 0.1em;
-}
+  letter-spacing: 0.1em; }
 
 .button-inside {
   width: 0;
@@ -196,15 +185,13 @@ header {
   -webkit-transition: width 0.5s, left 0.5s, margin 0.5s;
   -moz-transition: width 0.5s, left 0.5s, margin 0.5s;
   -o-transition: width 0.5s, left 0.5s, margin 0.5s;
-  transition: width 0.5s, left 0.5s, margin 0.5s;
-}
+  transition: width 0.5s, left 0.5s, margin 0.5s; }
 
 .button-inside.full {
   width: 100%;
   left: 0;
   top: 0;
-  margin-right: -50px;
-}
+  margin-right: -50px; }
 
 .inside-text {
   text-align: center;
@@ -215,8 +202,7 @@ header {
   -webkit-transform: translateX(50%);
   -moz-transform: translateX(50%);
   -ms-transform: translateX(50%);
-  transform: translateX(50%);
-}
+  transform: translateX(50%); }
 
 /*MODALE */
 .modale {
@@ -462,11 +448,12 @@ footer {
   text-align: center;
   height: 80px;
   padding-top: 2%;
-  font-size: 0.7em;
-}
+  font-size: 0.7em; }
   @media (max-width: 800px) {
     footer {
-      height: 50px; } }
+      height: 0; }
+      footer span {
+        display: none; } }
   footer .legal {
     vertical-align: bottom;
     margin-top: 1%; }
@@ -478,8 +465,7 @@ footer {
       align-self: center; }
       footer ul li .fa {
         display: block;
-        font-size: 1.7em;
-      }
+        font-size: 1.7em; }
       footer ul li:hover {
         color: #00a0d1; }
 

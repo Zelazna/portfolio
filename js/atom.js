@@ -13,7 +13,7 @@ scene.add(camera);
 
 directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
 directionalLight.position.set(1, 1, 2).normalize();
-scene.add(directionalLight);
+//scene.add(directionalLight);
 
 //    pointLight = new THREE.PointLight( 0xffffff, 3, 1000 );
 //    scene.add( pointLight );
