@@ -279,6 +279,8 @@ header {
   .cd-horizontal-timeline p {
     text-align: justify;
     margin-top: 2%; }
+  .cd-horizontal-timeline li a {
+    font-family: "Oswald", sans-serif; }
 
 /*REALISATIONS */
 .realisations {
