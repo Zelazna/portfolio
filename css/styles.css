@@ -12,7 +12,7 @@ em {
   font-style: italic; }
 
 body {
-  font-family: Roboto, "Helvetica", "Arial", sans-serif;
+  font-family: "Quattrocento", serif;
   font-weight: 200;
   background: #EBEBEB; }
 
@@ -22,6 +22,7 @@ body {
 h2 {
   font-size: 1.7em;
   font-weight: 300;
+  font-family: "Oswald", sans-serif;
   text-align: center; }
   @media (max-width: 800px) {
     h2 {
@@ -30,7 +31,8 @@ h2 {
 h3 {
   text-align: center;
   font-size: 1.1em;
-  font-weight: 400; }
+  font-weight: 400;
+  font-family: "Oswald", sans-serif; }
   @media (max-width: 800px) {
     h3 {
       font-size: 0.7em; } }
@@ -71,7 +73,8 @@ header {
   .presentation h1 {
     font-size: 2.3em;
     font-weight: 300;
-    margin: 0 0 2%; }
+    margin: 0 0 2%;
+    font-family: "Oswald", sans-serif; }
     .presentation h1 span {
       font-size: 0.7em;
       font-weight: 200; }
@@ -142,7 +145,8 @@ header {
             text-align: left;
             line-height: 100%;
             margin-left: 10%;
-            font-size: 0.7em; }
+            font-size: 0.7em;
+            font-family: "Oswald", sans-serif; }
 
 .joindre {
   display: flex;
@@ -162,7 +166,8 @@ header {
 
 .button-fill.grey {
   background: #EBEBEB;
-  color: #000; }
+  color: #000;
+  font-family: "Oswald", sans-serif; }
 
 .button-text {
   padding: 0 25px;
@@ -214,7 +219,8 @@ header {
   left: 0;
   bottom: 0;
   right: 0;
-  padding-top: 8%; }
+  padding-top: 8%;
+  font-family: "Oswald", sans-serif; }
   .modale .content {
     border-radius: 2%;
     padding: 1%;
@@ -264,7 +270,9 @@ header {
   width: 100%;
   text-align: center; }
   .cd-horizontal-timeline h2 {
-    margin: 50px 0 75px 0; }
+    font-weight: 300;
+    margin: 50px 0 75px 0;
+    font-size: 2.3em; }
   .cd-horizontal-timeline i {
     display: block;
     font-size: 2.3em; }

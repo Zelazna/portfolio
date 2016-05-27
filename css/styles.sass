@@ -19,6 +19,8 @@ $center: 0 auto
 $font-weight-textes: 200
 $font-weight-titres: 300
 $background-size: cover
+$font-text:'Quattrocento', serif
+$font-title:'Oswald', sans-serif
 
 /*BURGER*/
 $menu-icon-bg: #052b23
@@ -32,7 +34,7 @@ em
   font-style: italic
 
 body
-  font-family: Roboto, "Helvetica", "Arial", sans-serif
+  font-family: $font-text
   font-weight: $font-weight-textes
   background: $grey-color
 
@@ -42,6 +44,7 @@ body
 h2
   font-size: $font-size-medium
   font-weight: $font-weight-titres
+  font-family: $font-title
   text-align: center
   @media (max-width: 800px)
     font-size: $font-size-regular
@@ -50,6 +53,7 @@ h3
   text-align: center
   font-size: $font-size-regular
   font-weight: 400
+  font-family: $font-title
   @media (max-width: 800px)
     font-size: $font-size-small
 
@@ -95,6 +99,7 @@ header
     font-size: $font-size-big
     font-weight: $font-weight-titres
     margin: 0 0 2%
+    font-family: $font-title
     span
       font-size: $font-size-small
       font-weight: 200
@@ -160,6 +165,7 @@ header
             line-height: 100%
             margin-left: 10%
             font-size: $font-size-small
+            font-family: $font-title
 
 //BOUTTONS
 
@@ -184,6 +190,7 @@ header
 .button-fill.grey
   background: $grey-color
   color: $black-color
+  font-family: $font-title
 
 .button-text
   padding: 0 25px
@@ -238,6 +245,7 @@ header
   bottom: 0
   right: 0
   padding-top: 8%
+  font-family: $font-title
   .content
     border-radius: 2%
     padding: 1%
@@ -288,7 +296,9 @@ header
   width: 100%
   text-align: center
   h2
+    font-weight: $font-weight-titres
     margin: 50px 0 75px 0
+    font-size: $font-size-big
   i
     display: block
     font-size: $font-size-big
