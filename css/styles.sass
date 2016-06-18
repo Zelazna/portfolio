@@ -283,8 +283,12 @@ header
     .social
       text-align: center
       border-top: 1px solid black
+      display: flex
+      justify-content : space-around
+      @media (max-width: 400px)
+        margin-top: 30%
       li
-        display: inline-block
+        //display: inline-block
         font-size: $font-size-big
         margin: 5%
 
@@ -495,6 +499,8 @@ footer
   height: 80px
   padding-top: 2%
   font-size: $font-size-small
+  @media (max-width: 400px)
+    display: none
   @media (max-width: 800px)
     span
       display: none
