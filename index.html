@@ -11,24 +11,6 @@
     <link rel="stylesheet" href="css/styles.min.css">
     <link rel="icon" href="img/favicon.png"/>
     <title>Constantin Guidon Développeur Web</title>
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                        (i[r].q = i[r].q || []).push(arguments)
-                    }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-74691334-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <!--firebase script-->
-    <!--<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>-->
 </head>
 <body>
 <div class="container">
@@ -38,13 +20,13 @@
             <ul class="ancres">
                 <li><a href="#apropos">A Propos</a></li>
                 <li><a href="mailto:constantin.guidon@gmail.com">Contact</a></li>
-                <li><a href="img/CV_GUIDON_CONSTANTIN.pdf">CV</a></li>
+                <li><a href="img/cv.pdf">CV</a></li>
                 <li><a href="#realisations">Réalisations</a></li>
             </ul>
             <ul class="social">
-                <li><a href="https://www.facebook.com/constantin.guidon"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://github.com/Zelazna"><i class="fa fa-github-square"></i></a></li>
-                <li><a href="https://fr.linkedin.com/in/constantinguidon"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/constantin.guidon"><i class="fa fa-facebook"></i></a></li>
+                <li><a target="_blank" href="https://github.com/Zelazna"><i class="fa fa-github-square"></i></a></li>
+                <li><a target="_blank" href="https://fr.linkedin.com/in/constantinguidon"><i class="fa fa-linkedin-square"></i></a></li>
             </ul>
         </div>
     </div>
@@ -112,7 +94,7 @@
                         <div class="inside-text">Voir</div>
                     </div>
                 </div>
-            </a><a href="mailto:constantin.guidon@gmail.com">
+            </a><a target="_blank" href="mailto:constantin.guidon@gmail.com">
             <div class="button-fill grey">
                 <div class="button-text">Contact</div>
                 <div class="button-inside">
@@ -164,7 +146,7 @@
                     <em>Septembre 2014</em>
                     <i class="fa fa-plane"></i>
                     <p>
-                        Je suis resté 6 mois en Angleterre, y est travaillé et passé un diplome de langue anglaise.
+                        Je suis resté 6 mois en Angleterre, y est travaillé et passé un diplôme de langue anglaise.
                         Découverte du Hard Rock ! ( Iron Maiden , Metallica ).
                     </p>
                 </li>
@@ -191,8 +173,8 @@
                     <em>2014</em>
                     <i class="fa fa-sun-o"></i>
                     <p>
-                        Toujours a l'hotel de la Fossette , je me suis initié au Webmarketing , Seo et Sea et j'ai
-                        decouvert le code avec une formation sur le Html et Css.
+                        Toujours à l'hotel de la Fossette , je me suis initié au Webmarketing , Seo et Sea et j'ai
+                        découvert le code avec une formation sur le Html et Css.
                     </p>
                 </li>
                 <li data-date="01/01/2015">
@@ -289,11 +271,27 @@
         <p class="legal"><span>Copyright © 2016 - Constantin Guidon</span></p>
     </footer>
 </div>
-<script src="js/jquery-2.2.2.min.js"></script>
+<script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/timeline.js"></script>
 <script src="js/main.js"></script>
-<script src="js/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r78/three.js"></script>
 <script src="js/atom.js"></script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-74691334-1', 'auto');
+    ga('send', 'pageview');
+</script>
 </body>
 </html>
