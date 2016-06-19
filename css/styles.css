@@ -199,6 +199,7 @@ header {
   margin-right: -50px; }
 
 .inside-text {
+  color: #00a0d1;
   text-align: center;
   position: absolute;
   right: 50%;
@@ -400,7 +401,7 @@ figure.effect-zoe p.icon-links a {
 
 figure.effect-zoe:hover p.icon-links a:hover,
 figure.effect-zoe:hover p.icon-links a:focus {
-  color: #252d31; }
+  color: #00a0d1; }
 
 figure.effect-zoe p.description {
   position: absolute;
