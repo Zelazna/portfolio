@@ -20,8 +20,8 @@ $center: 0 auto
 $font-weight-textes: 200
 $font-weight-titres: 300
 $background-size: cover
-$font-text:'Quattrocento', serif
-$font-title:'Oswald', sans-serif
+$font-text: 'Quattrocento', serif
+$font-title: 'Oswald', sans-serif
 
 /*BURGER*/
 $menu-icon-bg: #052b23
@@ -286,7 +286,7 @@ header
       text-align: center
       border-top: 1px solid black
       display: flex
-      justify-content : space-around
+      justify-content: space-around
       @media (max-width: 400px)
         margin-top: 30%
       li
@@ -450,7 +450,7 @@ figure.effect-zoe p.description
   -webkit-backface-visibility: hidden
   @media (max-width: 320px)
     padding: 0
-    
+
 /* Fix for Chrome 37.0.2062.120 (Mac) */
 
 figure.effect-zoe h2,
@@ -493,6 +493,13 @@ figure.effect-zoe:hover p.icon-links a:nth-child(2)
 figure.effect-zoe:hover p.icon-links a:first-child
   -webkit-transition-delay: 0.2s
   transition-delay: 0.2s
+
+figure.effect-zoe
+  figcaption
+    p.description
+      font-family: $font-title
+      text-transform: uppercase
+      text-align: center
 
 //FOOTER
 

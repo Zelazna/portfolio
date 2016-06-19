@@ -460,6 +460,11 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s; }
 
+figure.effect-zoe figcaption p.description {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: center; }
+
 footer {
   text-align: center;
   height: 80px;
