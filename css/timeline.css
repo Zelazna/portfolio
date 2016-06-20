@@ -112,8 +112,8 @@
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
     bottom: -5px;
-    height: 12px;
-    width: 12px;
+    height: 8px;
+    width: 8px;
     border-radius: 50%;
     border: 2px solid #dfdfdf;
     background-color: #f8f8f8;
