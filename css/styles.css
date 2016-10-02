@@ -145,8 +145,9 @@ header {
             text-align: left;
             line-height: 100%;
             margin-left: 10%;
-            font-size: 0.7em;
-            font-family: "Oswald", sans-serif; }
+            font-size: 0.8em;
+            font-family: "Oswald", sans-serif;
+            margin-bottom: 1%; }
 
 .joindre {
   display: flex;
